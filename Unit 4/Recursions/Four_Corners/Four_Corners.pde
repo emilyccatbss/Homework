@@ -3,6 +3,8 @@ void setup() {
   noFill();
   drawCircle1(height/2, height/2, height/2, 20, 20);
   drawCircle1(height/2, height/2, height/2, 20, -20);
+  drawCircle1(height/2, height/2, height/2, -20, 20);
+  drawCircle1(height/2, height/2, height/2, -20, -20);
 }
 void drawCircle1(float radius, float x, float y, float xDiff, float yDiff) {
   //new ellipse- smaller
