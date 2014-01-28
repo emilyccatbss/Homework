@@ -1,5 +1,6 @@
 void setup(){
   size(600,600);
+  noFill();
   ellipse(0,height/2,height/2,height/2);
   drawCircle(height/2,0);
 }
